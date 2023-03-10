@@ -1,0 +1,14 @@
+Escreva um programa que leia as notas de duas avalliações normais
+e a not da avaliação optativa
+
+Se o alunonão fez a optativa recebe -1
+
+Calcular a media do semestre considerando que a prova optativa substitui a nota mais baixa das duas primeiras avalliações
+
+Escrever a média e mensagens que digam se o aluno foi aprovado, reprovado ou está em exame, de acordo com as informações baixo
+
+Média maior ou igual a 6  => aprovado
+
+Menor que 3 => reprovado
+
+Maior ou igual a 3 e meno que 6 => exame
