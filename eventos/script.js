@@ -21,4 +21,5 @@ function sair(){
   evento.innerHTML = 'Evento de sair'
   evento.style.background = 'purple'
 }
+console.log('Deu certo')
 
