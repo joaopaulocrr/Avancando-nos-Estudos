@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-top: 50px;
+    background-color: rgb(62, 221, 226);
+}
+h1 {
+    text-shadow: -1px 1px 1px rgb(128, 124, 124);
+}
+p{
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input {
+    text-align: center;
+    height: 35px;
+    border-radius: 20px;
+
+}
+button {
+    font-size: 15px;
+    padding: 3px;
+    border-top: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(189, 120, 253);
+    color: white;
+}
+.resposta {
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgb(196, 195, 194);
+}
