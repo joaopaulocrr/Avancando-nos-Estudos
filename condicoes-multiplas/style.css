@@ -10,7 +10,7 @@ body {
     align-items: center;
     height: 100vh;
     padding-top: 50px;
-    background-color: rgb(62, 221, 226);
+    background-color: rgba(6, 38, 39, 0.829);
 }
 h1 {
     text-shadow: -1px 1px 1px rgb(128, 124, 124);
@@ -26,6 +26,13 @@ input {
     border-radius: 20px;
 
 }
+.imagens {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    
+}
 button {
     font-size: 15px;
     padding: 3px;
@@ -36,9 +43,8 @@ button {
     background-color: rgb(189, 120, 253);
     color: white;
 }
-.resposta {
-    border-radius: 5px;
+#resposta {
+    font-size: 30px;
     padding: 5px;
     margin-top: 10px;
-    background-color: rgb(196, 195, 194);
 }
