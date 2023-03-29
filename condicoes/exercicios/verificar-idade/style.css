@@ -29,10 +29,27 @@ main {
     box-shadow: 1px 2px 8px rgba(0, 0, 255, 0.575);
 }
 
+p {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#ano {
+    cursor: text;
+    height: 19px;
+    padding: 3px;
+}
+
 button {
     display: block;
     margin-top: 15px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid rgba(56, 56, 56, 0.329);
+    cursor: pointer;
 }
+
 
 #imagem {
     width: 200px;
@@ -40,11 +57,16 @@ button {
     margin: auto;
     margin-top: 20px;
     border-radius: 50%;
-    border: 1px solid blue;
+    border: 1px solid rgba(0, 0, 255, 0.096);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
 }
 
 footer {
     margin-top: 20px;
     color: white;
     font-style: italic;
+    font-size: 1.5em;
+    
 }
