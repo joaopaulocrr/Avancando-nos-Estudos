@@ -1,4 +1,4 @@
-/*function contar() {
+function contar() {
     let inicio = document.getElementById("inicio")
     let i = Number(inicio.value)
     let fim = document.getElementById("fim")
@@ -6,22 +6,20 @@
     let passo = document.getElementById("passo")
     let p = Number(passo.value)
     let res = document.getElementById("res")
-    res.innerHTML = `Contando: <br/>`
+    res.innerHTML = `Contando: <br/>🏳`
 
-
-    for (var c = 1;c <= 10;c++) {
-    console.log("João Paulo")
-}
-    
-}*/
-
-let inicio = 2
-let fim = 20
-let passo = 2
-
-
-for (inicio; inicio <= fim; inicio+2) {
-    console.log (inicio)
+    if (i > f) {
+        alert("[ERRO] Início não pode ser maior que fim.")
+    }else{
+        for (i; i <= f; i = i + p) {
+            if (p == 0) {
+                alert('Passo inválido! Considerando passo 1.')
+                p = 1
+            }
+            res.innerHTML += `👉${i} `
+        }
+        res.innerHTML += "🚩"
+    }
 
 }
 
