@@ -20,19 +20,14 @@ header {
 }
 
 main {
-    width: 70%;
+    width: 450px;
     background-color: white;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.24);
-}
-
-main {
     margin: 20px 0;
     font-size: 18px;
 }
-
-
 
 main input {
     height: 15px;
@@ -53,6 +48,16 @@ button {
 
 #tab {
     font-size: 16px;
+    padding: 3px;
+    
+}
+
+option {
+    padding: 3px;
+}
+
+#sel {
+    height: 100%;
 }
 
 footer {
